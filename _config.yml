@@ -14,3 +14,9 @@ plugins:
 
 # Google Analytics ID
 google_analytics: G-G21L5FTFZH
+
+# 排除不需要发布到网站上的文件或文件夹
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - PROJECT_CONTEXT.md
