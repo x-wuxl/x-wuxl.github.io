@@ -11,6 +11,7 @@ baseurl: "/pixel-beacon"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Google Analytics ID
 google_analytics: G-G21L5FTFZH

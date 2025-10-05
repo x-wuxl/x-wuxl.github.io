@@ -1,0 +1,8 @@
+# robots.txt for Pixel Beacon
+
+User-agent: *
+Allow: /
+
+Sitemap: https://x-wuxl.github.io/pixel-beacon/sitemap.xml
+
+
