@@ -3,9 +3,9 @@ description: 像素信标 (Pixel Beacon) - 你的数字生活导航。我们致�
 theme: minima
 
 url: "https://x-wuxl.github.io"
-
 # 网站的子路径，必须与仓库名完全一致
-baseurl: "/pixel-beacon"
+baseurl: ""
+
 
 # 增加下面这个 plugins 列表
 plugins:
