@@ -1,73 +1,80 @@
 ---
 layout: default
 ---
-
 <div class="home">
 
     {{ content }}
 
     {%- if site.posts.size > 0 -%}
-
-    <!-- 
-      这里是自定义样式，用于实现你想要的效果:
-      1. 为每篇文章添加一个列表小圆点。
-      2. 调整布局和字体颜色，使其与主题协调。
-    -->
     <style>
-        .custom-post-list {
+        /* 时间线整体列表样式 */
+        .post-list-timeline {
             list-style: none;
             padding-left: 0;
         }
 
-        .custom-post-list li {
+        /* 列表项样式 */
+        .post-list-timeline li {
             display: flex;
             align-items: baseline;
-            margin-bottom: 8px;
-            font-size: 1rem;
-            /* 设置为正常字体大小 */
+            margin-bottom: 12px;
+            padding-left: 1rem;
+            /* 整体缩进，为年份标题留出空间 */
         }
 
-        .custom-post-list li::before {
-            content: '•';
-            /* 使用伪元素创建小圆点 */
+        /* 年份标题样式 */
+        .year-heading {
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: #333;
+            margin-top: 2rem;
+            /* 与上一年的间距 */
+            margin-bottom: 1rem;
+        }
+
+        /* 日期样式 (月-日) */
+        .post-meta-date-short {
+            font-size: 0.95rem;
             color: #828282;
-            /* 圆点的颜色，与主题元信息颜色匹配 */
-            margin-right: 0.75rem;
-            /* 圆点和日期之间的距离 */
+            min-width: 60px;
+            /* 宽度可以小一些 */
+            font-family: "JetBrains Mono", "SF Mono", monospace;
         }
 
-        .post-date {
-            color: #828282;
-            /* 日期的颜色 */
-            white-space: nowrap;
-            /* 防止日期换行 */
-        }
-
-        .post-link {
+        /* 标题链接样式 */
+        .post-title-link {
+            font-size: 1.05rem;
+            color: #2a7ae2;
             text-decoration: none;
+            line-height: 1.5;
+            transition: color 0.1s ease-in-out;
+        }
+
+        .post-title-link:hover {
+            color: #1756a9;
+            text-decoration: underline;
         }
     </style>
 
-    <!-- 移除了默认的 "Posts" 标题 -->
-    <ul class="custom-post-list">
-        {%- for post in site.posts -%}
+    <div class="post-list-timeline">
+        <!-- Liquid 逻辑：按年份分组 -->
+        {% assign current_year = '0' %}
+        {% for post in site.posts %}
+        {% assign post_year = post.date | date: "%Y" %}
+        {% if post_year != current_year %}
+        <h2 class="year-heading">{{ post_year }}</h2>
+        {% assign current_year = post_year %}
+        {% endif %}
         <li>
-            <!-- 日期：格式化为 YYYY-MM-DD，无超链接 -->
-            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-
-            <!-- 为了对齐，在日期和标题间增加一些空格 -->
-            &nbsp;&nbsp;
-
-            <!-- 文章标题：带超链接 -->
-            <a class="post-link" href="{{ post.url | relative_url }}">
+            <span class="post-meta-date-short">{{ post.date | date: "%m-%d" }}</span>
+            <a class="post-title-link" href="{{ post.url | relative_url }}">
                 {{ post.title | escape }}
             </a>
         </li>
-        {%- endfor -%}
-    </ul>
+        {% endfor %}
+    </div>
 
     <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml" | relative_url }}">via RSS</a></p>
-
     {%- endif -%}
 
 </div>
