@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    {{ content }}
+
+    {%- if site.posts.size > 0 -%}
+
+    <!-- 
+      这里是自定义样式，用于实现你想要的效果:
+      1. 为每篇文章添加一个列表小圆点。
+      2. 调整布局和字体颜色，使其与主题协调。
+    -->
+    <style>
+        .custom-post-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .custom-post-list li {
+            display: flex;
+            align-items: baseline;
+            margin-bottom: 8px;
+            font-size: 1rem;
+            /* 设置为正常字体大小 */
+        }
+
+        .custom-post-list li::before {
+            content: '•';
+            /* 使用伪元素创建小圆点 */
+            color: #828282;
+            /* 圆点的颜色，与主题元信息颜色匹配 */
+            margin-right: 0.75rem;
+            /* 圆点和日期之间的距离 */
+        }
+
+        .post-date {
+            color: #828282;
+            /* 日期的颜色 */
+            white-space: nowrap;
+            /* 防止日期换行 */
+        }
+
+        .post-link {
+            text-decoration: none;
+        }
+    </style>
+
+    <!-- 移除了默认的 "Posts" 标题 -->
+    <ul class="custom-post-list">
+        {%- for post in site.posts -%}
+        <li>
+            <!-- 日期：格式化为 YYYY-MM-DD，无超链接 -->
+            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+
+            <!-- 为了对齐，在日期和标题间增加一些空格 -->
+            &nbsp;&nbsp;
+
+            <!-- 文章标题：带超链接 -->
+            <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+            </a>
+        </li>
+        {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml" | relative_url }}">via RSS</a></p>
+
+    {%- endif -%}
+
+</div>

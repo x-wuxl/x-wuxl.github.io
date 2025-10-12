@@ -1,6 +1,6 @@
 # 项目上下文概要 (Project Context Summary)
 
-**最后更新时间:** 2025年10月5日
+**最后更新时间:** 2025年10月12日
 
 本文档旨在为本项目提供一个快速、全面的背景介绍，以便在开始新的开发或维护工作时，能迅速理解项目的状态、技术选型和历史决策。
 
@@ -38,9 +38,7 @@ description: >-
 
 # 网站发布后的根 URL，末尾不要加 /
 url: "[https://x-wuxl.github.io](https://x-wuxl.github.io)" 
-
-# 网站的子路径，必须与你的仓库名完全一致
-baseurl: "/pixel-beacon"
+baseurl: ""
 
 # 主题
 theme: minima
@@ -49,6 +47,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Google Analytics ID
 google_analytics: G-G21L5FTFZH
