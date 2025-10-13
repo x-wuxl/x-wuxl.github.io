@@ -7,7 +7,9 @@ date: 2025-10-13
 ---
 
 百度网盘无限扩容视频图文教程+自动破解工具  
-链接：[https://pan.quark.cn/s/dbbaf8dc553d](https://pan.quark.cn/s/dbbaf8dc553d)
+网盘链接：  
+[https://pan.quark.cn/s/dbbaf8dc553d](https://pan.quark.cn/s/dbbaf8dc553d)  
+[https://pan.baidu.com/s/12utyHrec-PL5MvhvwYVscA?pwd=kdq9](https://pan.baidu.com/s/12utyHrec-PL5MvhvwYVscA?pwd=kdq9)
 
 软件界面如下
 
@@ -76,7 +78,7 @@ date: 2025-10-13
 
 6. 然后在百度网盘网页版（或pc客户端）上用清理重复文件的方式删除掉刚刚扩容的占位，具体操作就是：打开百度网盘网页版→登录账号→点左下角“工具”按钮→点击“文件管理”下面的“垃圾文件清理”→在“扫描重复文件”里面选择“扫描指定目录”（如下图）→选中【当天日期zw】文件夹，扫描出全部占位文件后全选删除，删除后查看容量条是否恢复到正常状态，**等恢复到正常状态后，尽快存入一个文件，不要让容量显示为0**，到这里修复就完成了
 
-<img src="/assets/images/software-expansion-guide_4.png" alt="百度网盘扩容修复" style="width: 50%;">
+<img src="/assets/images/software-expansion-guide_4.png" alt="百度网盘扩容修复" style="width: 40%;">
 
 修复时间不固定，正常情况十几分钟会复制一次占位，有时候也会很久才复制一次，都是正常的，多等等，实在不行就暂停了重新修复
 
