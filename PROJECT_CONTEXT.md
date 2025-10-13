@@ -58,6 +58,7 @@ google_analytics: G-G21L5FTFZH
 * **文章 (`_posts/`):** 所有的博客文章都存放于此目录，遵循 Jekyll 的 `YYYY-MM-DD-文件名.md` 命名规范。
 * **首页 (`index.md`):** 使用主题默认的 `home` 布局。
 * **头部定制 (`_includes/head.html`):** 为了集成 Google Analytics，我们创建了此文件来覆盖主题的默认设置。该文件包含了 GA4 的跟踪脚本，并使用 `_config.yml` 中的变量进行管理。
+* **首页定制 (`_layouts/home.html`):** 将 Jekyll 首页默认的样式，更改为自定义的样式。
 * **依赖管理 (`Gemfile`):** 项目包含一个 `Gemfile` 文件，用于锁定 `github-pages` 这个 gem，以解决 Jekyll 主题和插件的依赖问题，确保在 GitHub Pages 环境中能稳定构建。
 
 ---

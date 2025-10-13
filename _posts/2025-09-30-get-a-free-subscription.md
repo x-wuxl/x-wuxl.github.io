@@ -1,7 +1,13 @@
 ---
 layout: post
-title:  "全自动获取免费机场订阅节点"
-
+title: "全自动获取免费机场订阅节点"
+date: 2025-09-30 10:00:00 +0800
+description: "使用Python脚本全自动获取免费机场订阅节点教程。包含本地和服务器两种部署方式，支持自动收集、合并和上传到GitHub Gist。"
+image: /assets/og-image.png
+author: "像素信标"
+categories: [技术教程]
+tags: [机场订阅, 免费节点, Python脚本, GitHub Gist, 自动化, 科学上网]
+keywords: "免费机场订阅, 机场节点, Python脚本, GitHub Gist, 自动获取节点"
 ---
 
 ### 前置条件：
