@@ -51,13 +51,19 @@ plugins:
 
 # Google Analytics ID
 google_analytics: G-G21L5FTFZH
+
+# 文章URL格式配置，避免中文分类导致的URL编码问题
+permalink: /:year/:month/:day/:title/
 ```
 
 ### 5. 内容与文件结构
 
 * **文章 (`_posts/`):** 所有的博客文章都存放于此目录，遵循 Jekyll 的 `YYYY-MM-DD-文件名.md` 命名规范。
 * **首页 (`index.md`):** 使用主题默认的 `home` 布局。
-* **分类页面 (`category/`):** 包含文章分类系统，只有 `category/index.md` 会被发布，其他分类页面已被排除。
+* **分类系统 (`category/`):** 
+  - `category/index.md`: 统一的分类页面，展示所有分类和对应文章列表
+  - 其他分类页面文件已被exclude，避免出现在站点导航中
+  - 访问路径：`/category/` 查看所有分类内容
 * **头部定制 (`_includes/head.html`):** 为了集成 Google Analytics，我们创建了此文件来覆盖主题的默认设置。该文件包含了 GA4 的跟踪脚本，并使用 `_config.yml` 中的变量进行管理。
 * **首页定制 (`_layouts/home.html`):** 将 Jekyll 首页默认的样式，更改为自定义的样式。
 * **依赖管理 (`Gemfile`):** 项目包含一个 `Gemfile` 文件，用于锁定 `github-pages` 这个 gem，以解决 Jekyll 主题和插件的依赖问题，确保在 GitHub Pages 环境中能稳定构建。
@@ -66,7 +72,18 @@ google_analytics: G-G21L5FTFZH
 
 * **Front Matter 标准化:** 所有文章都包含完整的 SEO 元数据，包括 description、keywords、tags 等。
 * **分类系统:** 建立了完整的文章分类体系，包括实用教程、网赚教程、技术教程、软件工具、购物攻略等。
-* **URL 优化:** 使用英文路径避免中文URL编码问题，提升SEO效果。
+* **URL 优化:** 
+  - 文章URL格式：`/:year/:month/:day/:title/` 避免中文分类导致的编码问题
+  - 统一的分类页面路径：`/category/` 提供所有分类的集中展示
 * **社交分享优化:** 统一使用 og-image 进行社交媒体分享优化。
+* **站点结构优化:** 通过exclude配置避免不必要的页面出现在导航中，保持简洁的用户体验。
+
+### 7. 部署状态
+
+* **当前状态:** 已成功部署到 GitHub Pages
+* **访问地址:** https://x-wuxl.github.io
+* **分类页面:** https://x-wuxl.github.io/category/
+* **文章总数:** 13篇（涵盖5个主要分类）
+* **最后部署:** 2025年10月16日
 
 ---
