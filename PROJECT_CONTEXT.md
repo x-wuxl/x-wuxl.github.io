@@ -1,6 +1,6 @@
 # 项目上下文概要 (Project Context Summary)
 
-**最后更新时间:** 2025年10月12日
+**最后更新时间:** 2025年10月16日
 
 本文档旨在为本项目提供一个快速、全面的背景介绍，以便在开始新的开发或维护工作时，能迅速理解项目的状态、技术选型和历史决策。
 
@@ -57,8 +57,16 @@ google_analytics: G-G21L5FTFZH
 
 * **文章 (`_posts/`):** 所有的博客文章都存放于此目录，遵循 Jekyll 的 `YYYY-MM-DD-文件名.md` 命名规范。
 * **首页 (`index.md`):** 使用主题默认的 `home` 布局。
+* **分类页面 (`category/`):** 包含文章分类系统，只有 `category/index.md` 会被发布，其他分类页面已被排除。
 * **头部定制 (`_includes/head.html`):** 为了集成 Google Analytics，我们创建了此文件来覆盖主题的默认设置。该文件包含了 GA4 的跟踪脚本，并使用 `_config.yml` 中的变量进行管理。
 * **首页定制 (`_layouts/home.html`):** 将 Jekyll 首页默认的样式，更改为自定义的样式。
 * **依赖管理 (`Gemfile`):** 项目包含一个 `Gemfile` 文件，用于锁定 `github-pages` 这个 gem，以解决 Jekyll 主题和插件的依赖问题，确保在 GitHub Pages 环境中能稳定构建。
+
+### 6. SEO 优化策略
+
+* **Front Matter 标准化:** 所有文章都包含完整的 SEO 元数据，包括 description、keywords、tags 等。
+* **分类系统:** 建立了完整的文章分类体系，包括实用教程、网赚教程、技术教程、软件工具、购物攻略等。
+* **URL 优化:** 使用英文路径避免中文URL编码问题，提升SEO效果。
+* **社交分享优化:** 统一使用 og-image 进行社交媒体分享优化。
 
 ---
