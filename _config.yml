@@ -16,6 +16,9 @@ plugins:
 # Google Analytics ID
 google_analytics: G-G21L5FTFZH
 
+# 文章URL格式配置，避免中文分类导致的URL编码问题
+permalink: /:year/:month/:day/:title/
+
 # 排除不需要发布到网站上的文件或文件夹
 exclude:
   - Gemfile
