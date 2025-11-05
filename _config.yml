@@ -25,8 +25,3 @@ exclude:
   - Gemfile.lock
   - PROJECT_CONTEXT.md
   - 文章 Front Matter 优化模板.md
-  - category/tutorials.md
-  - category/money-making.md
-  - category/tech-tutorials.md
-  - category/software-tools.md
-  - category/shopping-guide.md

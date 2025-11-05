@@ -2,7 +2,7 @@
 layout: default
 title: "文章分类"
 permalink: /category/
-description: "像素信标文章分类页面 - 按分类浏览所有文章，包括实用教程、网赚教程、技术教程、软件工具、购物攻略等。"
+description: "像素信标文章分类页面 - 按分类浏览所有文章，包括实用教程、网赚教程、技术教程、软件工具、购物攻略、产业分析等。"
 ---
 
 # 文章分类
@@ -57,6 +57,17 @@ description: "像素信标文章分类页面 - 按分类浏览所有文章，包
 <p>购物优惠信息和攻略，包括电商活动、红包雨时间表等。</p>
 <ul>
 {% for post in site.categories['购物攻略'] %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span> - {{ post.date | date: "%Y-%m-%d" }}</span>
+  </li>
+{% endfor %}
+</ul>
+
+## 📊 产业分析
+<p>深度产业分析和行业解读，揭示产业链、技术垄断、战略资源等关键信息。</p>
+<ul>
+{% for post in site.categories['产业分析'] %}
   <li>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     <span> - {{ post.date | date: "%Y-%m-%d" }}</span>
