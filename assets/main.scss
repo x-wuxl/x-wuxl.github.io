@@ -1,0 +1,157 @@
+---
+---
+
+@import "minima";
+
+/* Footer 优化样式 */
+.site-footer {
+  padding: 3rem 0 2rem;
+  margin-top: 4rem;
+  background-color: #fafafa;
+  border-top: 2px solid #e8e8e8;
+  font-size: 0.9rem;
+}
+
+.footer-col-wrapper {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+/* 友链区域样式 */
+.footer-links {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e8e8e8;
+  text-align: center;
+}
+
+.footer-links h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #828282;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.footer-links .friend-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-links .friend-links li {
+  display: inline-block;
+}
+
+.footer-links .friend-links a {
+  display: inline-block;
+  color: #2a7ae2;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 0.9rem;
+  border: 1px solid #e0e8f5;
+  background-color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-links .friend-links a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(42, 122, 226, 0.1), transparent);
+  transition: left 0.5s;
+}
+
+.footer-links .friend-links a:hover {
+  color: #1756a9;
+  background-color: #f0f7ff;
+  border-color: #2a7ae2;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(42, 122, 226, 0.15);
+}
+
+.footer-links .friend-links a:hover::before {
+  left: 100%;
+}
+
+/* 响应式设计 */
+@media screen and (max-width: 600px) {
+  .site-footer {
+    padding: 2rem 0 1.5rem;
+    margin-top: 3rem;
+  }
+  
+  .footer-col-wrapper {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .footer-col {
+    min-width: 100%;
+  }
+  
+  .footer-links {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+  }
+  
+  .footer-links .friend-links {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .footer-links .friend-links a {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}
+
+/* Footer 整体布局优化 */
+.site-footer .wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-col {
+  margin-bottom: 1.5rem;
+  flex: 1;
+  min-width: 200px;
+}
+
+/* 社交链接区域优化 */
+.site-footer .social-links {
+  margin-top: 2rem;
+  text-align: center;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e8e8e8;
+}
+
+/* 版权信息优化 */
+.site-footer .wrapper::after {
+  content: '';
+  display: block;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e8e8e8;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #999;
+}
+
