@@ -3,6 +3,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://x-wuxl.github.io/pixel-beacon/sitemap.xml
+Sitemap: https://x-wuxl.github.io/sitemap.xml
 
 
