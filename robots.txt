@@ -1,8 +1,7 @@
-# robots.txt for Pixel Beacon
+# robots.txt
 
 User-agent: *
 Allow: /
 
 Sitemap: https://x-wuxl.github.io/sitemap.xml
-
-
+Sitemap: https://x-wuxl.github.io/java-interview-qa/sitemap.xml
