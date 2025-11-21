@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "免费领取 Google Cloud 赠金体验 AI Studio 和云服务"
+title: "免费领取 Google Cloud 赠金体验 AI Studio NanoBanana Pro"
 date: 2025-11-21 08:30:00 +0800
 categories: [Google Cloud, AI, 教程]
 tags: [Google Cloud, AI Studio, 免费赠金, 谷歌云, GCP, 教程]
-description: "详细教程：如何免费领取 Google Cloud 价值 5 美元的赠金，用于体验 Google AI Studio、云虚拟机等服务。赠金有效期 180 天，来自上海谷歌开发者大会。"
-keywords: "Google Cloud 赠金, AI Studio, 谷歌云免费额度, GCP Credits, Google 开发者大会, 云服务教程"
+description: "详细教程：如何免费领取 Google Cloud 价值 5 美元的赠金，用于体验 Google AI Studio、NanoBanana Pro、云虚拟机等服务。赠金有效期 180 天，来自上海谷歌开发者大会。"
+keywords: "Google Cloud 赠金, AI Studio, NanoBanana Pro, 谷歌云免费额度, GCP Credits, Google 开发者大会, 云服务教程"
 author: "wuxl"
 image: 
   path: /assets/img/google-cloud-credits.jpg
