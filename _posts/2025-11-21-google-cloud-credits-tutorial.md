@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "免费领取 Google Cloud 赠金体验 AI Studio NanoBanana Pro"
+title: "免费在 Google AI Studio 中使用 NanoBanana Pro"
 date: 2025-11-21 08:30:00 +0800
 categories: [Google Cloud, AI, 教程]
 tags: [Google Cloud, AI Studio, 免费赠金, 谷歌云, GCP, 教程]
@@ -57,8 +57,8 @@ canonical_url: https://x-wuxl.github.io/2025/11/21/google-cloud-credits-tutorial
 ### 步骤 6：绑定结算账号
 
 1. 打开 [Google Cloud Platform 结算页面](https://console.cloud.google.com/billing/projects)
-2. 在结算账号最右侧找到 **"操作"** 选项
-3. 点击 **"更改结算信息"** 并完成绑定
+2. 在结算账号最右侧点击三个点按钮
+3. 点击 **更改结算信息** 并完成绑定
 ---
 
 **相关链接：**
