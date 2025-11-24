@@ -8,7 +8,7 @@ description: "完整收录 Nano-Banana 和 Veo AI 模型的创意玩法与提示
 keywords: "Nano-Banana, Veo, AI 图像生成, AI 视频生成, Prompt 提示词, 手办生成, 风格转换, 人像摄影, 工业设计, AI 创作"
 author: "wuxl"
 image: 
-  path: /assets/img/nano-banana-ai.jpg
+  path: /assets/images/nano-banana-pro.png
   alt: "Nano-Banana AI 创意玩法"
 seo:
   type: Article
@@ -29,6 +29,8 @@ canonical_url: https://x-wuxl.github.io/2025/11/21/nanobanana-ai-creative-prompt
 - ✨ 特殊效果与多步编辑
 
 无论你是 AI 创作新手还是专业设计师，都能从中找到适合的玩法！
+
+[11个 Nano Banana Pro 免费使用渠道汇总](https://x-wuxl.github.io/2025/11/24/nano-banana-pro-free-channels/)
 
 ---
 
