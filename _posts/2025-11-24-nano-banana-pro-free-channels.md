@@ -9,23 +9,23 @@ keywords: "Nano Banana Pro, AI绘图工具, 免费AI工具, AI图像生成, nano
 author: "wuxl"
 image: /assets/images/nano-banana-pro.png
 ---
-### 1. nanobananafree.ai
+### 1. [nanobananafree.ai](https://nanobananafree.ai/?inviteCode=LIjbBNoucs)
 **完全免费，直接使用**  
 一个老牌站点，现已更新支持 Nano Banana Pro 免费使用，无需注册即可体验。
 
-### 2. imini.ai
+### 2. [imini.ai](imini.ai)
 **每日限时免费**  
 图片质量高，大厂出品，平台稳定可靠，每日提供免费使用次数。
 
-### 3. trickle.so
+### 3. [trickle.so](trickle.so)
 **可视化创作平台**  
 通过自然语言+可视化画布进行创作，提供更直观的操作体验。
 
-### 4. Flowith.cc
+### 4. [Flowith.cc](Flowith.cc)
 **Beta 版本**  
 能使用 Nano Banana 1 和 2 版本，目前暂不支持图片上传功能。
 
-### 5. Openrouter.ai
+### 5. [Openrouter.ai](Openrouter.ai)
 **多模型聚合平台**  
 聚合多家大模型的统一接口平台，可通过 API 调用使用。
 
@@ -33,8 +33,8 @@ image: /assets/images/nano-banana-pro.png
 
 | 名称 | 网址 | 特点 |
 |------|------|------|
+| Nanobanana Free | [nanobananafree.ai](https://nanobananafree.ai/?inviteCode=LIjbBNoucs) | 完全免费 |
 | iMini | [imini.com](https://imini.com) | 直连，每日有免费次数 |
-| Nanobanana Free | [nanobananafree.ai](https://nanobananafree.ai) | 完全免费 |
 | Tapnow | [tapnow.ai](https://tapnow.ai) | 适合电商人 |
 | ListenHub | [banana.listenhub.ai](https://banana.listenhub.ai) | 直连 |
 | Lovart | [www.lovart.ai](https://www.lovart.ai) | 模型多 |
