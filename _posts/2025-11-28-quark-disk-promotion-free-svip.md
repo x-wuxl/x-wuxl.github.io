@@ -27,7 +27,7 @@ sitemap:
 
 具体条件可以看下面图片中的详细描述。
 
-<img src="/assets/images/quark_project_promotion_benefits.png" alt="夸克网盘推广项目权益" style="max-width: 600px; width: 100%; display: block; margin: 20px auto;" />
+<img src="/assets/images/quark_project_promotion_benefits.png" alt="夸克网盘推广项目权益" style="max-width: 450px; width: 100%; display: block; margin: 20px auto;" />
 
 ## 怎样加入推广
 
