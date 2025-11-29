@@ -20,7 +20,7 @@ sitemap:
 
 首次成功申请推广，即赠送15天 ***SVIP*** 和 ***26TB*** 云空间，后续满足每周/每月的推广条件，权益都是自动发放、自动续期的。
 
-而且满足推广条件非常简单，收集一些近期热门资源，群里分享一下基本都能完成。
+而且满足推广条件非常简单，收集一些近期热门资源，群里或社区网站分享一下基本都能完成。
 
 - 20TB满足条件：7天内转存数>10
 - 15天SVIP满足条件：30天内转存数>30
@@ -33,7 +33,7 @@ sitemap:
 
 ### 第一步：注册任推邦
 
-[**注册链接：https://dt.bd.cn/#/pages/login/register?invite_code=742999**](https://dt.bd.cn/#/pages/login/register?invite_code=742999)
+<a href="https://dt.bd.cn/#/pages/login/register?invite_code=742999" target="_blank" rel="noopener noreferrer"><strong>注册链接：https://dt.bd.cn/#/pages/login/register</strong></a>
 
 <h3>邀请码：742999</h3>
 
@@ -62,10 +62,13 @@ sitemap:
 
 每周四结算上一周（周一到周日）的，周四晚上在 APP 中 "我的 - 收益台" 就能看到推广收益了。
 
-心急的可以在 "首页 - 夸克网盘"，拉到最下方，有一个查询数据，可以查询到自己的推广收益。
+心急的可以在 "首页 - 夸克网盘"，拉到最下方，有一个 **查询数据**，可以查询到自己的推广情况。
 
 但是数据周期是 T+2 的，也就是说你今天分享的链接，2天后才能查询到收益。这里的列表可以看到每天的详细推广数据。
 
 ---
 
 除了推广夸克网盘外，百度网盘也能申请推广，步骤都是一样的。
+
+更多夸克百度网盘资源可以关注 TG 资源分享频道：
+<a href="https://t.me/qiankun_bag" target="_blank" rel="noopener noreferrer"><strong>https://t.me/qiankun_bag</strong></a>
