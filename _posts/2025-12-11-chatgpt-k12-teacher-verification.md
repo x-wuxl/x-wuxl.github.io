@@ -112,19 +112,7 @@ Sincerely,
 4. 文件名设置为：`Official letter`
 5. 提交图片完成验证
 
----
-
-## 注意事项
-
-- ✅ 确保使用美国 IP 访问验证页面
-- ✅ 所有信息必须真实可查
-- ✅ 信函中必须包含学校 Logo
-- ✅ 确保图片清晰，文字可读
+<img src="/assets/images/chatgpt-k12-official-letter.png" width="60%" alt="Official Letter 示例">
 
 ---
-
-## 总结
-
-完成以上步骤后，您的 ChatGPT K12 教师验证申请就提交成功了。验证通过后，您将获得 ChatGPT 教育版的专属权限和功能。
-
 **温馨提示：** 本教程仅供学习交流使用，请遵守相关服务条款和使用规范。
