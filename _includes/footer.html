@@ -1,5 +1,5 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <data class="u-url" href="{{ " /" | relative_url }}"></data>
 
   <div class="wrapper">
 
@@ -12,16 +12,16 @@
             </svg><span>订阅</span>
           </a>
         </p>
-      {%- if site.author %}
+        {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
+          <li class="p-name">{{ site.author.name | escape }}</li>
           {% endif -%}
           {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
           {%- endif %}
         </ul>
-      {%- endif %}
+        {%- endif %}
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
@@ -36,11 +36,12 @@
     <div class="footer-links">
       <h3>友链</h3>
       <ul class="friend-links">
-        <li><a href="https://x-wuxl.github.io/java-interview-qa/" target="_blank" rel="noopener noreferrer">Java 后端开发面试题库</a></li>
+        <li><a href="https://x-wuxl.github.io/java-interview-qa/" target="_blank" rel="noopener noreferrer">Java
+            后端开发面试题库</a></li>
+        <li><a href="https://t.me/qiankun_bag" target="_blank" rel="noopener noreferrer">TG 资源分享频道</a></li>
       </ul>
     </div>
 
   </div>
 
 </footer>
-
