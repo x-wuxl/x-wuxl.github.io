@@ -10,6 +10,4 @@ keywords: "ChatGPT K12 schools, ChatGPT 学校名单, 教育数据泄露, K12 AI
 
 包含了 **12 万个** 使用 ChatGPT 的 K12 学校数据。
 
-“底裤都被扒光了，坐等翻车。” 
-
 *   **CSV 文件下载**：[https://t.me/qiankun_bag/192](https://t.me/qiankun_bag/192)
