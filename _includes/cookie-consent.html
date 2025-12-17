@@ -1,0 +1,192 @@
+<!-- Cookie Consent Banner -->
+<div id="cookie-consent-banner" class="cookie-consent-banner" style="display: none;">
+    <div class="cookie-consent-content">
+        <div class="cookie-consent-text">
+            <p><strong>🍪 Cookie 使用通知</strong></p>
+            <p>本站使用 Cookie 来改善您的浏览体验、分析网站流量并展示个性化广告。继续使用本站即表示您同意我们使用 Cookie。</p>
+            <p>
+                <a href="{{ '/privacy-policy/' | relative_url }}" target="_blank">了解更多</a>
+            </p>
+        </div>
+        <div class="cookie-consent-buttons">
+            <button id="cookie-accept" class="cookie-btn cookie-accept">接受</button>
+            <button id="cookie-decline" class="cookie-btn cookie-decline">拒绝</button>
+        </div>
+    </div>
+</div>
+
+<style>
+    .cookie-consent-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 20px;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+        z-index: 9999;
+        animation: slideUp 0.5s ease-out;
+    }
+
+    @keyframes slideUp {
+        from {
+            transform: translateY(100%);
+        }
+
+        to {
+            transform: translateY(0);
+        }
+    }
+
+    .cookie-consent-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .cookie-consent-text {
+        flex: 1;
+        min-width: 300px;
+    }
+
+    .cookie-consent-text p {
+        margin: 5px 0;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .cookie-consent-text strong {
+        font-size: 16px;
+    }
+
+    .cookie-consent-text a {
+        color: #ffd700;
+        text-decoration: underline;
+    }
+
+    .cookie-consent-text a:hover {
+        color: #ffed4e;
+    }
+
+    .cookie-consent-buttons {
+        display: flex;
+        gap: 10px;
+        flex-shrink: 0;
+    }
+
+    .cookie-btn {
+        padding: 10px 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    }
+
+    .cookie-accept {
+        background: white;
+        color: #667eea;
+    }
+
+    .cookie-accept:hover {
+        background: #f0f0f0;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .cookie-decline {
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: 1px solid white;
+    }
+
+    .cookie-decline:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: translateY(-2px);
+    }
+
+    /* 移动端适配 */
+    @media (max-width: 768px) {
+        .cookie-consent-content {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .cookie-consent-buttons {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .cookie-btn {
+            flex: 1;
+        }
+    }
+</style>
+
+<script>
+    (function () {
+        // 检查用户是否已经做出选择
+        const cookieConsent = localStorage.getItem('cookieConsent');
+
+        if (!cookieConsent) {
+            // 如果没有记录，显示横幅
+            document.getElementById('cookie-consent-banner').style.display = 'block';
+        }
+
+        // 接受按钮
+        document.getElementById('cookie-accept').addEventListener('click', function () {
+            localStorage.setItem('cookieConsent', 'accepted');
+            localStorage.setItem('cookieConsentDate', new Date().toISOString());
+            hideBanner();
+            // 可以在这里启用 Google Analytics 等服务
+            enableCookies();
+        });
+
+        // 拒绝按钮
+        document.getElementById('cookie-decline').addEventListener('click', function () {
+            localStorage.setItem('cookieConsent', 'declined');
+            localStorage.setItem('cookieConsentDate', new Date().toISOString());
+            hideBanner();
+            // 可以在这里禁用某些 Cookie
+            disableCookies();
+        });
+
+        function hideBanner() {
+            const banner = document.getElementById('cookie-consent-banner');
+            banner.style.animation = 'slideDown 0.5s ease-out';
+            setTimeout(function () {
+                banner.style.display = 'none';
+            }, 500);
+        }
+
+        function enableCookies() {
+            // 这里可以添加启用 Google Analytics 等服务的代码
+            console.log('Cookies enabled');
+        }
+
+        function disableCookies() {
+            // 这里可以添加禁用某些 Cookie 的代码
+            console.log('Cookies declined');
+        }
+
+        // 添加下滑动画
+        const style = document.createElement('style');
+        style.textContent = `
+    @keyframes slideDown {
+      from {
+        transform: translateY(0);
+      }
+      to {
+        transform: translateY(100%);
+      }
+    }
+  `;
+        document.head.appendChild(style);
+    })();
+</script>
