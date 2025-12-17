@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "服务条款"
 permalink: /terms-of-service/
 description: "像素信标服务条款 - 了解使用本网站的条款和条件、用户责任以及相关法律声明。"

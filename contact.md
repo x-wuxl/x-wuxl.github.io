@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "联系我们"
 permalink: /contact/
 description: "联系像素信标 - 通过 Telegram、GitHub 或邮件与我们取得联系，我们随时欢迎您的反馈和建议。"

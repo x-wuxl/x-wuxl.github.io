@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "隐私政策"
 permalink: /privacy-policy/
 description: "像素信标隐私政策 - 了解我们如何收集、使用和保护您的个人信息，以及 Google AdSense 和第三方 Cookie 的使用说明。"

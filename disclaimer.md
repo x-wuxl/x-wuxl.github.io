@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "免责声明"
 permalink: /disclaimer/
 description: "像素信标免责声明 - 了解网站内容使用限制、联盟链接披露和其他重要法律声明。"

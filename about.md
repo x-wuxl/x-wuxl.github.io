@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 关于我们
 permalink: /about/
 description: "关于像素信标 (Pixel Beacon) - 一个专注于分享实用软件、效率工具和高质量教程的网站。"
