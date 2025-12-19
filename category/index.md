@@ -2,7 +2,7 @@
 layout: default
 title: "文章分类"
 permalink: /category/
-description: "像素信标文章分类页面 - 按分类浏览所有文章，包括实用教程、网赚教程、技术教程、软件工具、购物攻略、资源分享、产业分析等。"
+description: "像素信标文章分类页面 - 按分类浏览所有文章，包括实用教程、AI 技术、网赚教程、技术教程、资源分享、产业分析等。"
 ---
 
 # 文章分类
@@ -13,6 +13,17 @@ description: "像素信标文章分类页面 - 按分类浏览所有文章，包
 <p>各种实用的数字工具使用教程，包括网盘扩容、下载提速等实用技巧。</p>
 <ul>
 {% for post in site.categories['实用教程'] %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span> - {{ post.date | date: "%Y-%m-%d" }}</span>
+  </li>
+{% endfor %}
+</ul>
+
+## 🤖 AI 技术
+<p>探索人工智能的前沿技术、工具应用与行业变革。</p>
+<ul>
+{% for post in site.categories['AI'] %}
   <li>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     <span> - {{ post.date | date: "%Y-%m-%d" }}</span>
@@ -42,27 +53,6 @@ description: "像素信标文章分类页面 - 按分类浏览所有文章，包
 {% endfor %}
 </ul>
 
-## 🛠️ 软件工具
-<p>实用的软件工具推荐和使用指南，提升工作效率。</p>
-<ul>
-{% for post in site.categories['软件工具'] %}
-  <li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    <span> - {{ post.date | date: "%Y-%m-%d" }}</span>
-  </li>
-{% endfor %}
-</ul>
-
-## 🛒 购物攻略
-<p>购物优惠信息和攻略，包括电商活动、红包雨时间表等。</p>
-<ul>
-{% for post in site.categories['购物攻略'] %}
-  <li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    <span> - {{ post.date | date: "%Y-%m-%d" }}</span>
-  </li>
-{% endfor %}
-</ul>
 
 ## 📦 资源分享
 <p>精选副业赚钱教程、AI课程、自媒体运营等优质资源合集分享。</p>
