@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Grok/X.ai 自动化注册机：全自动账号注册与 Token 提取脚本"
+title: "Grok/X.ai 自动化注册：全自动账号注册与 Token 提取脚本"
 date: 2025-12-16 20:10:00 +0800
 categories: [AI, 自动化工具]
 tags: [Grok, X.ai, 自动化注册, Tampermonkey, 油猴脚本, 账号批量注册]
