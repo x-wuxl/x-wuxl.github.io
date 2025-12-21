@@ -6,7 +6,7 @@ date: 2025-10-23 10:30:00 +0800
 
 # SEO 核心 (强烈推荐)
 description: "深度解读稀土产业链全貌：从徐光宪的多级萃取法到中国6N-7N级高纯度稀土技术垄断，揭示西方面临的系统性困局与中国稀土战略的四两拨千斤之道。"
-image: /assets/images/rare-earth-analysis/feature-cover.jpg
+image: /assets/og-image.png
 author: "像素信标"
 
 # 内容结构 (推荐)

@@ -8,7 +8,7 @@ description: "详细教程：如何免费领取 Google Cloud 价值 5 美元的�
 keywords: "Google Cloud 赠金, AI Studio, NanoBanana Pro, 谷歌云免费额度, GCP Credits, Google 开发者大会, 云服务教程"
 author: "wuxl"
 image: 
-  path: /assets/img/google-cloud-credits.jpg
+  path: /assets/images/google-cloud-credits.jpg
   alt: "Google Cloud Platform Credits"
 seo:
   type: Article
