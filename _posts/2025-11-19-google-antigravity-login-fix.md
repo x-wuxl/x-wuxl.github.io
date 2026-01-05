@@ -51,4 +51,5 @@ keywords: "Google Antigravity 登录失败, Antigravity 卡住, Google 登录转
 
 如果上述操作均无效，可能需要更改 Google 账号所属地区，  
 查询 Google 账号所属地区：[https://policies.google.com/terms](https://policies.google.com/terms)  
+更改所属地区：[https://policies.google.com/country-association-form](https://policies.google.com/country-association-form)  
 改到 `日本、新加坡、美国`这些地区即可。
