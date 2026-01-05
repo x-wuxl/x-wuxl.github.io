@@ -1,0 +1,15 @@
+# IDE
+.vscode/
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
