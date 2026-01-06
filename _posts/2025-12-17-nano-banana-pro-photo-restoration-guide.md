@@ -1,51 +1,51 @@
 ---
 layout: post
-title: "使用 Nano Nanana Pro 进行老照片修复 - 高真实感人像修复完整指南"
-description: "详细讲解如何使用 Nano Nanana Pro 进行老照片修复，包含完整的结构化配置提示词，实现不改脸、不美颜、不换脸的高真实感人像修复增强，保留自然肤质和细节。"
+title: "使用 Nano Banana Pro 进行老照片修复 - 高真实感人像修复完整指南"
+description: "详细讲解如何使用 Nano Banana Pro 进行老照片修复，包含完整的结构化配置提示词，实现不改脸、不美颜、不换脸的高真实感人像修复增强，保留自然肤质和细节。"
 date: 2025-12-17 09:20:00 +0800
 categories: [AI工具, 图像处理]
-tags: [老照片修复, AI修复, 人像修复, Nano Nanana Pro, 图像增强, 照片还原, AI工具, 提示词工程]
+tags: [老照片修复, AI修复, 人像修复, Nano Banana Pro, 图像增强, 照片还原, AI工具, 提示词工程]
 author: wuxl
 image: 
   path: /assets/images/nano-banana.png
   alt: "老照片修复效果对比图"
-keywords: "老照片修复, AI照片修复, 人像修复, Nano Nanana Pro, 照片增强, 图像还原, AI修复工具, 真实感修复, 人像增强, 提示词配置"
+keywords: "老照片修复, AI照片修复, 人像修复, Nano Banana Pro, 照片增强, 图像还原, AI修复工具, 真实感修复, 人像增强, 提示词配置"
 lang: zh-CN
-permalink: /posts/nano-nanana-pro-photo-restoration-guide/
-canonical_url: https://x-wuxl.github.io/posts/nano-nanana-pro-photo-restoration-guide/
+permalink: /posts/nano-banana-pro-photo-restoration-guide/
+canonical_url: https://x-wuxl.github.io/posts/nano-banana-pro-photo-restoration-guide/
 
 # SEO优化标签
 seo:
   type: BlogPosting
-  headline: "使用 Nano Nanana Pro 进行老照片修复 - 高真实感人像修复完整指南"
-  description: "详细讲解如何使用 Nano Nanana Pro 进行老照片修复，包含完整的结构化配置提示词，实现不改脸、不美颜、不换脸的高真实感人像修复增强。"
-  keywords: "老照片修复, AI照片修复, 人像修复, Nano Nanana Pro, 照片增强, 图像还原, AI修复工具"
+  headline: "使用 Nano Banana Pro 进行老照片修复 - 高真实感人像修复完整指南"
+  description: "详细讲解如何使用 Nano Banana Pro 进行老照片修复，包含完整的结构化配置提示词，实现不改脸、不美颜、不换脸的高真实感人像修复增强。"
+  keywords: "老照片修复, AI照片修复, 人像修复, Nano Banana Pro, 照片增强, 图像还原, AI修复工具"
   author: "wuxl"
   datePublished: "2025-12-17T09:20:00+08:00"
   dateModified: "2025-12-17T09:20:00+08:00"
 
 # Open Graph 标签
 og:
-  title: "使用 Nano Nanana Pro 进行老照片修复 - 高真实感人像修复完整指南"
-  description: "详细讲解使用 Nano Nanana Pro 进行老照片修复的完整配置，不改脸、不美颜、不换脸的高真实感修复方案。"
+  title: "使用 Nano Banana Pro 进行老照片修复 - 高真实感人像修复完整指南"
+  description: "详细讲解使用 Nano Banana Pro 进行老照片修复的完整配置，不改脸、不美颜、不换脸的高真实感修复方案。"
   type: article
-  url: https://x-wuxl.github.io/posts/nano-nanana-pro-photo-restoration-guide/
+  url: https://x-wuxl.github.io/posts/nano-banana-pro-photo-restoration-guide/
   image: https://x-wuxl.github.io/assets/images/nano-banana.png
   locale: zh_CN
 
 # Twitter Card 标签
 twitter:
   card: summary_large_image
-  title: "使用 Nano Nanana Pro 进行老照片修复"
-  description: "详细讲解使用 Nano Nanana Pro 进行老照片修复的完整配置指南"
+  title: "使用 Nano Banana Pro 进行老照片修复"
+  description: "详细讲解使用 Nano Banana Pro 进行老照片修复的完整配置指南"
   image: https://x-wuxl.github.io/assets/images/nano-banana.png
 
 # 结构化数据 Schema.org
 schema:
   "@context": "https://schema.org"
   "@type": "TechArticle"
-  headline: "使用 Nano Nanana Pro 进行老照片修复 - 高真实感人像修复完整指南"
-  description: "详细讲解如何使用 Nano Nanana Pro 进行老照片修复，包含完整的结构化配置提示词。"
+  headline: "使用 Nano Banana Pro 进行老照片修复 - 高真实感人像修复完整指南"
+  description: "详细讲解如何使用 Nano Banana Pro 进行老照片修复，包含完整的结构化配置提示词。"
   author:
     "@type": "Person"
     name: "wuxl"
@@ -60,11 +60,11 @@ schema:
       url: "https://x-wuxl.github.io/assets/og-image.png"
 ---
 
-# 使用 Nano Nanana Pro 进行老照片修复
+# 使用 Nano Banana Pro 进行老照片修复
 
 ## 概述
 
-本文将详细介绍如何使用 **Nano Nanana Pro** 对老照片进行高真实感修复。该方法的核心是在**不改脸、不美颜、不换脸**的前提下，实现照片的高清修复增强，包括：清晰度提升、噪点清除、柔光棚拍效果、85mm 浅景深、自然肤质保留和电影感调色。同时，我们会使用负向提示严格防止风格跑偏、磨皮、假脸、伪影和畸形等问题。
+本文将详细介绍如何使用 **Nano Banana Pro** 对老照片进行高真实感修复。该方法的核心是在**不改脸、不美颜、不换脸**的前提下，实现照片的高清修复增强，包括：清晰度提升、噪点清除、柔光棚拍效果、85mm 浅景深、自然肤质保留和电影感调色。同时，我们会使用负向提示严格防止风格跑偏、磨皮、假脸、伪影和畸形等问题。
 
 ---
 
@@ -294,7 +294,7 @@ schema:
 
 ## 总结
 
-通过以上结构化配置，Nano Nanana Pro 能够在严格保持人物原貌的前提下，对老照片进行高真实感修复。这种方法的优势在于：
+通过以上结构化配置，Nano Banana Pro 能够在严格保持人物原貌的前提下，对老照片进行高真实感修复。这种方法的优势在于：
 
 1. **身份保真**：100% 保持原人物面部特征，不跑脸、不换人
 2. **真实质感**：保留皮肤毛孔、细纹等自然细节，避免塑料感
