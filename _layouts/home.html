@@ -64,13 +64,19 @@ layout: default
         {% for post in pinned_posts %}
         <li>
             <span class="post-meta-date-short">{{ post.date | date: "%m-%d" }}</span>
+            {% if post.external_url %}
+            <a class="post-title-link" href="{{ post.external_url }}" target="_blank" rel="noopener noreferrer">
+                {{ post.title | escape }}
+            </a>
+            {% else %}
             <a class="post-title-link" href="{{ post.url | relative_url }}">
                 {{ post.title | escape }}
             </a>
+            {% endif %}
         </li>
         {% endfor %}
         {% endif %}
-        
+
         <!-- 非置顶文章按年份分组 -->
         {% assign current_year = '0' %}
         {% for post in site.posts %}

@@ -11,7 +11,6 @@ keywords: "夸克网盘, 夸克网盘推广, 夸克SVIP, 免费云盘空间, 任
 image: /assets/images/quark_project_promotion_benefits.png
 excerpt: "首次成功申请夸克网盘推广，即赠送15天SVIP和26TB云空间。满足推广条件非常简单，后续权益自动发放、自动续期SVIP和26TB空间。"
 lang: zh-CN
-pinned: true
 sitemap:
   changefreq: monthly
   priority: 0.8
