@@ -3,5 +3,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://x-wuxl.github.io/sitemap.xml
-Sitemap: https://x-wuxl.github.io/java-interview-qa/sitemap.xml
+Sitemap: https://xwuxl.com/sitemap.xml
+Sitemap: https://xwuxl.com/java-interview-qa/sitemap.xml
