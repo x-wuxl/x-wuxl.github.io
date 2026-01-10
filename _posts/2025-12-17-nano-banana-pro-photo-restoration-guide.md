@@ -12,7 +12,7 @@ image:
 keywords: "老照片修复, AI照片修复, 人像修复, Nano Banana Pro, 照片增强, 图像还原, AI修复工具, 真实感修复, 人像增强, 提示词配置"
 lang: zh-CN
 permalink: /posts/nano-banana-pro-photo-restoration-guide/
-canonical_url: https://x-wuxl.github.io/posts/nano-banana-pro-photo-restoration-guide/
+canonical_url: https://xwuxl.com/posts/nano-banana-pro-photo-restoration-guide/
 
 # SEO优化标签
 seo:
@@ -29,8 +29,8 @@ og:
   title: "使用 Nano Banana Pro 进行老照片修复 - 高真实感人像修复完整指南"
   description: "详细讲解使用 Nano Banana Pro 进行老照片修复的完整配置，不改脸、不美颜、不换脸的高真实感修复方案。"
   type: article
-  url: https://x-wuxl.github.io/posts/nano-banana-pro-photo-restoration-guide/
-  image: https://x-wuxl.github.io/assets/images/nano-banana.png
+  url: https://xwuxl.com/posts/nano-banana-pro-photo-restoration-guide/
+  image: https://xwuxl.com/assets/images/nano-banana.png
   locale: zh_CN
 
 # Twitter Card 标签
@@ -38,7 +38,7 @@ twitter:
   card: summary_large_image
   title: "使用 Nano Banana Pro 进行老照片修复"
   description: "详细讲解使用 Nano Banana Pro 进行老照片修复的完整配置指南"
-  image: https://x-wuxl.github.io/assets/images/nano-banana.png
+  image: https://xwuxl.com/assets/images/nano-banana.png
 
 # 结构化数据 Schema.org
 schema:
@@ -51,13 +51,13 @@ schema:
     name: "wuxl"
   datePublished: "2025-12-17T09:20:00+08:00"
   dateModified: "2025-12-17T09:20:00+08:00"
-  image: "https://x-wuxl.github.io/assets/images/nano-banana.png"
+  image: "https://xwuxl.com/assets/images/nano-banana.png"
   publisher:
     "@type": "Organization"
     name: "x-wuxl Blog"
     logo:
       "@type": "ImageObject"
-      url: "https://x-wuxl.github.io/assets/og-image.png"
+      url: "https://xwuxl.com/assets/og-image.png"
 ---
 
 # 使用 Nano Banana Pro 进行老照片修复

@@ -13,7 +13,7 @@ image:
 seo:
   type: Article
   date_modified: 2025-11-21 09:41:00 +0800
-canonical_url: https://x-wuxl.github.io/2025/11/21/nanobanana-ai-creative-prompts-guide/
+canonical_url: https://xwuxl.com/2025/11/21/nanobanana-ai-creative-prompts-guide/
 ---
 
 ## 概述
@@ -30,7 +30,7 @@ canonical_url: https://x-wuxl.github.io/2025/11/21/nanobanana-ai-creative-prompt
 
 无论你是 AI 创作新手还是专业设计师，都能从中找到适合的玩法！
 
-[11个 Nano Banana Pro 免费使用渠道汇总](https://x-wuxl.github.io/2025/11/24/nano-banana-pro-free-channels/)
+[11个 Nano Banana Pro 免费使用渠道汇总](https://xwuxl.com/2025/11/24/nano-banana-pro-free-channels/)
 
 ---
 

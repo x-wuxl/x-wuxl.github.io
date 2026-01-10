@@ -13,7 +13,7 @@ image:
 seo:
   type: Article
   date_modified: 2025-11-21 08:30:00 +0800
-canonical_url: https://x-wuxl.github.io/2025/11/21/google-cloud-credits-tutorial/
+canonical_url: https://xwuxl.com/2025/11/21/google-cloud-credits-tutorial/
 ---
 
 ## 概述

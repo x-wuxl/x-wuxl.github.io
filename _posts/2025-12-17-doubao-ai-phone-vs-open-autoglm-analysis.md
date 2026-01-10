@@ -9,7 +9,7 @@ keywords: "豆包AI手机, Open-AutoGLM, GUI Agent, Android Framebuffer, FLAG_SE
 description: "从逆向工程角度深入剖析豆包 AI 手机与 Open-AutoGLM 的底层实现差异。本文详细对比两者在屏幕捕获机制、事件注入方式、权限模型、AI 推理架构等方面的技术差异，揭示系统级 Agent 与 ADB 层 Agent 的本质区别、隐私争议及行业生态影响。"
 author: wuxl
 excerpt: "本文基于逆向分析与公开资料，系统性地比较豆包 AI 手机（系统级 GUI Agent）与 Open-AutoGLM（ADB 层 Agent）的技术实现差异，涵盖 Framebuffer 读取、InputEvent 注入、FLAG_SECURE 绕过机制、VLM 模型架构，以及由此带来的隐私安全风险与行业生态冲突。"
-canonical_url: https://x-wuxl.github.io/ai/技术分析/安卓/2025/12/17/doubao-ai-phone-vs-open-autoglm-analysis.html
+canonical_url: https://xwuxl.com/ai/技术分析/安卓/2025/12/17/doubao-ai-phone-vs-open-autoglm-analysis.html
 toc: true
 toc_sticky: true
 ---

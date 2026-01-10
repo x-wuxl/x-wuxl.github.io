@@ -16,7 +16,7 @@ keywords:
   - 浏览器仿真
 seo:
   type: BlogPosting
-  canonical: "https://x-wuxl.github.io/2025/12/16/cursor2api-free-ai-api-tool"
+  canonical: "https://xwuxl.com/2025/12/16/cursor2api-free-ai-api-tool"
   publisher: "像素信标"
 og:
   type: article

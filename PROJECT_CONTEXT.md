@@ -37,7 +37,7 @@ description: >-
   像素信标 (Pixel Beacon) - 你的数字生活导航。我们致力于在浩瀚的互联网中，为你搜寻并点亮那些值得关注的效率工具、实用软件、精品资源与优质教程。
 
 # 网站发布后的根 URL，末尾不要加 /
-url: "[https://x-wuxl.github.io](https://x-wuxl.github.io)" 
+url: "[https://xwuxl.com](https://xwuxl.com)" 
 baseurl: ""
 
 # 主题
@@ -81,8 +81,8 @@ permalink: /:year/:month/:day/:title/
 ### 7. 部署状态
 
 * **当前状态:** 已成功部署到 GitHub Pages
-* **访问地址:** https://x-wuxl.github.io
-* **分类页面:** https://x-wuxl.github.io/category/
+* **访问地址:** https://xwuxl.com
+* **分类页面:** https://xwuxl.com/category/
 * **文章总数:** 13篇（涵盖5个主要分类）
 * **最后部署:** 2025年10月16日
 
