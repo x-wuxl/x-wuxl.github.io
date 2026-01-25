@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Clawdbot 安装教程：打造 24 小时在线的 Telegram AI 助手"
+title: "Clawdbot 安装教程：打造 24 小时在线的 AI 助手"
 date: 2026-01-25 14:00:00 +0800
 categories: [AI工具, 实用教程]
 tags: [Clawdbot, Telegram, AI助手, Claude, GPT, 自动化, 开源项目, VPS]
-description: "Clawdbot 安装部署完整教程：在 VPS 上搭建 24 小时在线的 Telegram AI 助手，支持 Claude、GPT 等大模型，可处理邮件、日程、调研等自动化任务。"
+description: "Clawdbot 安装部署完整教程：在 VPS 上搭建 24 小时在线的 AI 助手，支持 Claude、GPT 等大模型，可处理邮件、日程、调研等自动化任务。"
 excerpt: "想要一个真正能帮你干活的 AI 助手？Clawdbot 支持通过 Telegram 交互，24 小时在线处理邮件、日程、调研等任务。本文手把手教你从零部署。"
 author: 像素信标
 keywords: 
