@@ -21,6 +21,14 @@ toc: true
 toc_sticky: true
 ---
 
+Apple 的 App Store 是按地区定价的，不同国家价格差很大。
+比如 Claude Code 订阅价格
+
+- 美区：20刀/月，大约 140 元
+- 尼区：大概 8 - 12刀/月（浮动价格），大约便宜 30% ~ 60%
+
+除价格便宜外，还可以用礼品卡绕过信用卡限制，以及某些服务更容易开通
+
 #### 第一步：网页端初始注册
 
 1. **访问官网**：使用浏览器打开 [appleid.apple.com](https://www.google.com/search?q=https://appleid.apple.com)。
