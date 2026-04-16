@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: post
 title: "Codex 越狱破限与 CTF 专用 Prompt：打造无限制的本地 AI 编程助手"
@@ -13,7 +12,6 @@ excerpt: "想要让 OpenAI 推出的 Codex CLI 本地编程助手解除安全限
 toc: true
 toc_sticky: true
 ---
-```
 
 在进行 CTF（夺旗赛）挑战、逆向工程或渗透测试时，AI 往往会因为内置的安全策略变得过于谨慎，甚至拒绝执行带有“攻击性”特征的合法分析指令。
 
