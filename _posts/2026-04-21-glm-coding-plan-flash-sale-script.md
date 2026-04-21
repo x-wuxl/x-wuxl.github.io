@@ -23,7 +23,9 @@ toc_sticky: true
 
 你可以通过 [Tampermonkey (油猴)](https://www.tampermonkey.net/) 插件新建脚本并粘贴以下内容：
 
-```javascript
+
+
+```
 // ==UserScript==
 // @name         智谱 GLM Coding 终极抢购助手 (数据拦截版)
 // @namespace    http://tampermonkey.net/
