@@ -12,7 +12,7 @@ tags:
   - API
   - 中转服务
   - 开发者模式
-keywords: "Claude Desktop, 第三方 API, 中转 API, Claude 客户端设置, Configure third-party inference, Claude 开发者模式教程, Claude Base URL 配置"
+keywords: "Claude Desktop, Claude Desktop skip login, 第三方 API, 中转 API, Claude 客户端设置, Configure third-party inference, Claude 开发者模式教程, Claude Base URL 配置"
 description: "本文为您提供了一份简明详细的教程，指导您如何在 Claude Desktop 桌面客户端中开启开发者模式，并配置第三方中转 API 的 Base URL 和 API Key，实现本地顺畅调用。"
 author: "wuxl"
 excerpt: "想要在 Claude Desktop 桌面客户端中使用第三方中转 API 吗？只需简单的 4 步开启开发者模式，即可轻松配置自定义的 Base URL 和 API Key，摆脱网络和官方限制。"
