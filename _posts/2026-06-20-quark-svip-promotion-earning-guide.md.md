@@ -49,7 +49,7 @@ sitemap:
 
 **只要你在持续的分享资源，SVIP和26TB的空间就永远是你的！**
 
-<img src="/assets/images/campaign_benefits.jpg" alt="项目权益" style="max-width: 450px; width: 100%; display: block; margin: 20px auto;" />
+<img src="/assets/images/campaign_benefits.jpg" alt="项目权益" style="max-width: 350px; width: 100%; display: block; margin: 20px auto;" />
 
 ---
 
@@ -59,7 +59,7 @@ sitemap:
 
 不要听我说什么，直接看数据。以下是我在任推邦的真实收益截图：
 
-<img src="/assets/images/commission.jpg" alt="项目收益" style="max-width: 450px; width: 100%; display: block; margin: 20px auto;" />
+<img src="/assets/images/commission.jpg" alt="项目收益" style="max-width: 350px; width: 100%; display: block; margin: 20px auto;" />
 
 以下是真实的收益构成：
 
@@ -85,11 +85,11 @@ sitemap:
 
 **📊 以下是官方推广价格截图：**
 
-<img src="/assets/images/campaign_price.jpg" alt="项目推广价格" style="max-width: 450px; width: 100%; display: block; margin: 20px auto;" />
+<img src="/assets/images/campaign_price.jpg" alt="项目推广价格" style="max-width: 350px; width: 100%; display: block; margin: 20px auto;" />
 
 **🔥 看看当前平台热门项目，夸克网盘一直是流量担当：**
 
-<img src="/assets/images/popular_campaigns.jpg" alt="热门项目" style="max-width: 450px; width: 100%; display: block; margin: 20px auto;" />
+<img src="/assets/images/popular_campaigns.jpg" alt="热门项目" style="max-width: 350px; width: 100%; display: block; margin: 20px auto;" />
 
 ---
 
