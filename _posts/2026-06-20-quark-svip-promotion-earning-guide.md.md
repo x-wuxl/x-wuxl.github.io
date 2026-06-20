@@ -59,7 +59,11 @@ sitemap:
 
 不要听我说什么，直接看数据。以下是我在任推邦的真实收益截图：
 
-<img src="/assets/images/commission.jpg" alt="项目收益" style="max-width: 350px; width: 100%; display: block; margin: 20px auto;" />
+<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
+    <img src="/assets/images/commission_1.jpg" alt="收益截图1" style="max-width: 350px; width: 100%; min-width: 200px;" />
+    <img src="/assets/images/commission_2.jpg" alt="收益截图2" style="max-width: 350px; width: 100%; min-width: 200px;" />
+    <img src="/assets/images/commission_3.jpg" alt="收益截图3" style="max-width: 350px; width: 100%; min-width: 200px;" />
+</div>
 
 以下是真实的收益构成：
 
