@@ -93,7 +93,7 @@ sitemap:
 
 <img src="/assets/images/campaign_price.jpg" alt="项目推广价格" style="max-width: 350px; width: 100%; display: block; margin: 20px auto;" />
 
-**🔥 看看当前平台热门项目，夸克网盘一直是流量担当：**
+**🔥 当前平台热门项目：**
 
 <img src="/assets/images/popular_campaigns.jpg" alt="热门项目" style="max-width: 350px; width: 100%; display: block; margin: 20px auto;" />
 
