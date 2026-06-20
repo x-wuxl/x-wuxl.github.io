@@ -11,6 +11,7 @@ keywords: "夸克网盘推广, 免费夸克SVIP, 任推邦赚钱, 任推邦邀�
 image: /assets/images/quark_project_promotion_benefits.png
 excerpt: "教你零成本领取夸克网盘SVIP会员和26TB超大空间，同时通过资源分享打造月入3000+的稳定副业。保姆级教程，新手也能即刻上手！"
 lang: zh-CN
+pinned: true
 sitemap:
   changefreq: monthly
   priority: 0.9

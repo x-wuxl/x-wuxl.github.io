@@ -11,7 +11,6 @@ keywords: "Java面试题, Java后端面试, Java面试题库, Spring面试题, J
 image: /assets/images/java-interview-qa-banner.png
 excerpt: "专注于Java后端开发的面试题知识库，收录643道精选题目，按照基础→进阶→框架→分布式→实战的学习路径系统化整理，助你高效准备技术面试。"
 lang: zh-CN
-pinned: true
 external_url: "https://xwuxl.com/java-interview-qa/"
 sitemap:
   changefreq: weekly
