@@ -48,6 +48,8 @@ requires_openai_auth = true
 
 保存配置文件后，重新启动 Codex 或重新执行相关命令即可。
 
+如果配置文件中没有这行配置，则在对应的 `model_providers.xxx` 下新添加这一配置项即可。
+
 ## 原因说明
 
 在 Codex 0.149.0 中，自定义 Provider 的认证逻辑发生调整。当 `requires_openai_auth` 设置为 `false` 时，Codex 不会再自动使用 `auth.json` 内的鉴权信息，进而可能导致 API 密钥缺失或服务端返回 401 未授权错误。
