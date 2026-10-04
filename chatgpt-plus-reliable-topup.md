@@ -1,13 +1,13 @@
 ---
 layout: page
-title: ChatGPT Plus 卡冲125/月
+title: ChatGPT Plus 代充125/月
 permalink: /chatgpt-plus-reliable-topup/
 description: "提供安全、正规、透明的 ChatGPT Plus 代充值服务，每月仅需 125 元。采用正规卡直接充值至您的个人账号，拒绝黑卡与高风险虚拟卡，支持提供完整支付记录，全面保障账号安全。"
 ---
 
 #### ***ChatGPT Plus*** 代充值，125/月
 
-#### 正规一手卡，自助充值，秒到账，充值到你自己的账号中
+#### 官方代充，正规资金、正规卡代付，自助充值，秒到账，充值到你自己的账号中
 
 #### 100%安全不掉订阅，同官方质保，可以提供支付记录
 
